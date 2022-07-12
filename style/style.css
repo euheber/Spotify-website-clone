@@ -46,6 +46,17 @@ span a {
 button {
   background-color: transparent;
 }
+
+h1,
+h2 {
+  font-family: var(--title);
+  color: var(--second);
+}
+
+p {
+  font-family: var(--text);
+}
+
 /* base */
 /* header */
 header {
@@ -215,11 +226,11 @@ i {
   font-size: 2.5rem;
   font-family: var(--title);
   margin-bottom: 2rem;
+  color: var(--white);
 }
 
 .cta p {
   font-size: 1.5rem;
-  font-family: var(--text);
   margin-bottom: 2rem;
 }
 
@@ -260,6 +271,145 @@ i {
   margin-left: 1rem;
 }
 /* cta-area */
+
+/* main */
+main {
+  width: 100%;
+  max-width: 1400px;
+  margin: 3rem auto 0 auto;
+}
+
+.main-header-first {
+  background-color: var(--white);
+  text-align: center;
+}
+
+#premium-adv {
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+#premium-adv ul {
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.premium {
+  width: 16rem;
+  max-width: 19rem;
+  text-align: center;
+}
+
+.premium img {
+  width: 8rem;
+}
+
+.premium h2,
+.premium p {
+  color: var(--second);
+}
+
+.premium h2 {
+  font-size: 1rem;
+}
+
+#choose-premium {
+  padding-block: 4rem;
+  background-color: #efefef;
+}
+
+#choose-premium {
+  margin: 3rem auto 0 auto;
+  max-width: 1400px;
+}
+.main-header-second {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1400px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.main-header-second p {
+  color: var(--second);
+}
+
+
+#premium-opts{
+  margin: 3rem auto 0 auto;
+  width: 90%;
+  max-width: 1400px;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.premium-opt {
+  width: 17rem;
+  max-width: 100%;
+  border-radius: 7px;
+  background-color: var(--white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem 0 2rem 0;
+}
+
+.inside-content {
+  width: 15rem;
+  margin: 0 auto;
+}
+
+.payment-method {
+  padding: 0.3rem;
+  border: 1px solid var(--bg);
+  border-radius: 6px;
+  margin-bottom: 1rem;
+}
+
+.inside-content p {
+  color: var(--bg);
+  font-weight: 700;
+}
+
+.cost {
+  border-bottom: 1px solid var(--second);
+  padding-bottom: 1rem;
+}
+
+.cost h3,
+.cost p {
+  color: var(--second);
+  font-weight: 400;
+}
+
+.cost p {
+  margin-block: 0.5rem;
+}
+
+.inside-li-content{
+  align-items: center;
+  gap: 1rem;
+}
+
+.premium-opt ul li p, .premium-opt ul li i{
+  color: var(--second);
+}
+
+.premium-opt ul li p{
+  font-weight: 400;
+}
+
+.premium-opt ul li{
+  margin-top: 1rem;
+}
+
+.premium-btn{
+  width: 100%;
+  margin-top: 6rem;
+  padding-block: .5rem;
+  }
+
+/* main */
 
 @media (max-width: 768px) {
   #profile-btn {
