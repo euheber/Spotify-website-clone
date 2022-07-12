@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/style.css">
-    <script src="https://kit.fontawesome.com/414c4b498a.js" crossorigin="anonymous"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Rubik:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <script
+      src="https://kit.fontawesome.com/414c4b498a.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Spotify | 2022 layout clone</title>
-</head>
-<body>
-<header>
-   <div id="header" class="row">
-    <div id="logo">
-        <h1 class="logo"><a href="#"><i class="fa-brands fa-spotify"></i> Spotify</a></h1>
-    </div>
-    <nav class="row">
-        <ul class="row">
+  </head>
+  <body>
+    <header>
+      <div id="header" class="row">
+        <div id="logo">
+          <h1 class="logo">
+            <a href="#"><i class="fa-brands fa-spotify"></i> Spotify</a>
+          </h1>
+        </div>
+        <nav class="row">
+          <ul class="row">
             <li>Premium</li>
             <li>Suporte</li>
             <li>Baixar</li>
-        </ul>
-        
-        <button class="profile-btn" id="profile-btn">
-            <i class="fa-solid fa-user"></i>Perfil<i class="fa-solid fa-angle-down"></i>
-        </button>
+          </ul>
 
-        <div class="active-profile">
+          <button class="profile-btn" id="profile-btn">
+            <i class="fa-solid fa-user"></i>Perfil<i
+              class="fa-solid fa-angle-down"
+            ></i>
+          </button>
+
+          <div class="active-profile">
             <ul>
-                <li>Minha conta</li>
-                <li>Sair</li>
+              <li>Minha conta</li>
+              <li>Sair</li>
             </ul>
-        </div>
+          </div>
 
-        
+          <div id="mobile-btns-box" class="row">
+            <i class="fa-solid fa-user" id="user-icon"></i>
+            <button id="mobile-btn"><i class="fa-solid fa-bars"></i></button>
+          </div>
+        </nav>
+      </div>
 
-    </nav>
-   </div>
-</header>
+      <div id="active-mobile-menu">
 
-<section id="cta-area">
-    <div class="cta">
+       <div class="mobile-menu-items">
+            <h1><a href="#">Premium</a></h1>
+            <h1><a href="#">Suporte</a></h1>
+            <h1><a href="#">Baixar</a></h1>
+
+            <div class="bar">
+
+            </div>
+
+            <h2><a href="#">Conta</a></h2>
+            <h2><a href="#">Suporte</a></h2>
+
+       </div>
+
+       
+
+      </div>
+    </header>
+
+    <section id="cta-area">
+      <div class="cta">
         <h1>Curtição sem limites</h1>
-        <p>Escolha entre milhões de músicas e curta quando quiser, sem anúncios e offline.</p>
+        <p>
+          Escolha entre milhões de músicas e curta quando quiser, sem anúncios e
+          offline.
+        </p>
         <div class="cta-buttons">
-        <button class="black-btns cta-btn">Comece agora</button>
-        <button class="cta-btn white-btn">Ver agora</button>
+          <button class="black-btns cta-btn">Comece agora</button>
+          <button class="cta-btn white-btn">Ver agora</button>
         </div>
         <span><a href="#">Sujeito a Termos e Condições.</a></span>
-    </div>
+      </div>
+    </section>
 
-   
-</section>
-
-
-<script src="javascript/main.js"></script>
-</body>
+    <script src="javascript/main.js"></script>
+  </body>
 </html>
