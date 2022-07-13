@@ -284,6 +284,10 @@ main {
   text-align: center;
 }
 
+.main-header-first h1 {
+  font-size: 2.5rem;
+}
+
 #premium-adv {
   margin-top: 4rem;
   padding-bottom: 4rem;
@@ -331,12 +335,15 @@ main {
   text-align: center;
 }
 
+.main-header-second h1 {
+  font-size: 2.5rem;
+}
+
 .main-header-second p {
   color: var(--second);
 }
 
-
-#premium-opts{
+#premium-opts {
   margin: 3rem auto 0 auto;
   width: 90%;
   max-width: 1400px;
@@ -388,31 +395,31 @@ main {
   margin-block: 0.5rem;
 }
 
-.inside-li-content{
+.inside-li-content {
   align-items: center;
   gap: 1rem;
 }
 
-.premium-opt ul li p, .premium-opt ul li i{
+.premium-opt ul li p,
+.premium-opt ul li i {
   color: var(--second);
 }
 
-.premium-opt ul li p{
+.premium-opt ul li p {
   font-weight: 400;
 }
 
-.premium-opt ul li{
+.premium-opt ul li {
   margin-top: 1rem;
 }
 
-.premium-btn{
+.premium-btn {
   width: 100%;
-  padding-block: .5rem;
+  padding-block: 0.5rem;
   position: absolute;
   bottom: 10px;
   left: 0;
-  }
-
+}
 
 /* main */
 
