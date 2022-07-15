@@ -279,7 +279,6 @@ i {
 /* main */
 main {
   width: 100%;
-  max-width: 1400px;
   margin: 3rem auto 0 auto;
 }
 
@@ -322,14 +321,13 @@ main {
   font-size: 1rem;
 }
 
-#choose-premium {
-  padding-block: 4rem;
-  background-color: #efefef;
-}
+
 
 #choose-premium {
   margin: 3rem auto 0 auto;
-  max-width: 1400px;
+  width: 100%;
+  background-color: #efefef;
+  padding-bottom: 3rem;
 }
 .main-header-second {
   margin: 0 auto;
@@ -337,6 +335,7 @@ main {
   max-width: 1400px;
   background-color: transparent;
   text-align: center;
+  padding-top: 2rem;
 }
 
 .main-header-second h1 {
@@ -352,7 +351,7 @@ main {
   width: 90%;
   max-width: 1400px;
   justify-content: center;
-  gap: 1rem;
+  gap: 3rem;
   flex-wrap: wrap;
 }
 
