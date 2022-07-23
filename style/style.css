@@ -516,6 +516,7 @@ footer {
 
 #legal-information span{
   color: var(--third);
+  font-family: var(--text);
 }
 
 #legal-information ul {
@@ -526,6 +527,8 @@ footer {
 #legal-information ul li a{
   transition: .5s ease;
   color: var(--third);
+  font-family: var(--text);
+  font-size: .8rem;
 }
 
 #legal-information ul li a:hover{
