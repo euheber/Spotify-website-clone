@@ -473,15 +473,18 @@ footer {
   color: var(--base);
 }
 
+
 .footer-icons ul {
   gap: 1rem;
 }
 
 .footer-icons ul li {
-  padding: .5rem;
-  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
   background-color: #252525;
-  text-align: center;
+  border-radius: 100px;
 }
 
 #location{
